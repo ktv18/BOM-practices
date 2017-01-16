@@ -30,6 +30,7 @@
 * go https://docs.google.com/document/d/1mKa5dQ46jndVHrs9yqfKjSQV3BynrAw0SIEV6-CSVDg/edit
 * replace string of your lastname with object you've just created
 * now just wait
+
 ### 3 Create index.html, script.js, style.css files
 * populate index.html with content from ```https://raw.githubusercontent.com/ktv18/BOM-practices/master/index.html```
 * populate script.js with content from ```https://raw.githubusercontent.com/ktv18/BOM-practices/master/script.js```
