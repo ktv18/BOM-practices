@@ -28,7 +28,7 @@
 
 ### 2 Update shared array of students
 * go https://docs.google.com/document/d/1mKa5dQ46jndVHrs9yqfKjSQV3BynrAw0SIEV6-CSVDg/edit
-* replace string of your lastname with object you've just created
+* replace string of your lastName with object you've just created
 * now just wait
 
 ### 3 Create index.html, script.js, style.css files
@@ -59,4 +59,6 @@
 * `showLoader(show)` - function which accepts a boolean value and depending on true/false show/hide animation on the page
 * `clearStudentsList()` - function which removes all students information from the page
 * `clearStudentInfo()` - function which remove student info from the page
+* NOTE when you click on link in header `location.hash` will be empty
+* NOTE when you click on 'view student' `location.hash` will contain student lastName
 
