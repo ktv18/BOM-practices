@@ -32,9 +32,9 @@
 * now just wait
 
 ### 3 Create index.html, script.js, style.css files
-* populate index.html with content from ```https://raw.githubusercontent.com/ktv18/BOM-practices/master/index.html```
-* populate script.js with content from ```https://raw.githubusercontent.com/ktv18/BOM-practices/master/script.js```
-* populate style.css with content from ```https://raw.githubusercontent.com/ktv18/BOM-practices/master/style.css```
+* populate index.html with content from https://raw.githubusercontent.com/ktv18/BOM-practices/master/index.html
+* populate script.js with content from https://raw.githubusercontent.com/ktv18/BOM-practices/master/script.js
+* populate style.css with content from https://raw.githubusercontent.com/ktv18/BOM-practices/master/style.css
 
 ### 4 Open index.html 
 * take a look on line 26
