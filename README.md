@@ -1,28 +1,13 @@
 # BOM practices
 
 
-### 1 Створити клас Користувачів
-* Конструктор Користувачів буде приймати список користувачів (usersData)
-* При створенні екземпляру класу користувачів, його конструктор створює список користувачів
-* Список користувачів має бути закритий тобто взаємодія тільки опосередковано через публічні методи
+### 1 Create an array of all students 
+* nothing yet
 
 ### 2 API 
-* `renderStudents(students)` - function accepts an array of users objects and render it on the page
+* `renderStudents(students)` - function which accepts an array of students objects and render it on the page
+* `renderStudentInfo(studentInfo)` - functions which accepts an student object and render it on the page
+* `showLoader(show)` - function which accepts a boolean value and depending on true/false show/hide animation on the page
+* `clearStudentsList()` - function which removes all students information from the page
+* `clearStudentInfo` - function which remove student info from the page
 
-### 3 Створити публічний метод для пошуку користувача по його ID
-* метод приймає параметер ID і відображає в консоль обєкт цього користувача
-
-### 4 Створити публічний метод для добавлення нового користувача
-* метод приймає параметр обєкт з новим користувачом,поле first_name обовязкове, ID повинно генеруватися автоматично.
-* після створення нового користувача в консоль має виводитись повідомлення 'Hi everyone, i am ' + імя нового користувача
-
-### 5 Створити публічний метод для видалення користувача по його ID
-* метод приймає параметр ID
-* якщо користувача з вказаним ID не існує, в консоль має виводитися повідомлення про те що користувача з таким ID на має
-* після видалення  в консоль має виводитись повідомлення 'bye bye' + імя видаленого користувача
-
-### 6 Створити публічний метод для відображення кількості користувачів
-* в консоль має виводитися повідомлення про загальну кількість користувачів
-
-### 7 Всі публічні методи повинні працювати за принципом ланцюга 
-* наприклад: ` user.showAll().showById(15).deleteById(22) ... `
