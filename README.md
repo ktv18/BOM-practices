@@ -3,7 +3,7 @@
 
 ### 1 Create an array of all students 
 * each student Object must have next structure:
- `{
+  `` `{
     name: string,
     lastName: string,
     age: number,
@@ -11,9 +11,9 @@
     coverImg: string,
     email: string,
     skills: array
-   }`
+   } `` `
    example: 
-  `{
+   `` `{
      name: 'Taras',
      lastName: 'Kliushta',
      age: 26,
@@ -21,7 +21,7 @@
      coverImg: 'https://static.pexels.com/photos/9135/sky-clouds-blue-horizon.jpg',
      email: 'tarasklyushta@gmail.com',
      skills: ['JS','CSS', 'HTML']
-    }`
+    } `` `
 
 ### 2 API 
 * `renderStudents(students)` - function which accepts an array of students objects and render it on the page
