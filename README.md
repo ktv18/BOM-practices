@@ -30,12 +30,13 @@
  } 
 ```
 ### 2 Create index.html, script.js, style.css files
-* populate index.html with content from ...
-* populate script.js with content from ...
-* populate style.css with content from ...
+* populate index.html with content from ```https://raw.githubusercontent.com/ktv18/BOM-practices/master/index.html```
+* populate script.js with content from ```https://raw.githubusercontent.com/ktv18/BOM-practices/master/script.js```
+* populate style.css with content from ```https://raw.githubusercontent.com/ktv18/BOM-practices/master/style.css```
 
 ### 3 Open index.html 
 * take a look on line 26
+* create variable `students` which contains array of all students objects
 * write function `findStudentByLastName(lastName)` which accepts string of lastName, finds and returns object from array of studens with this lastName
 * Add event listener for hash changes (window.addEventListener('hashchange', function(){})
 
@@ -52,7 +53,7 @@
 
 ### 6 API 
 * `renderStudents(students)` - function which accepts an array of students objects and render it on the page
-* `renderStudentInfo(studentInfo)` - functions which accepts an student object and render it on the page
+* `renderStudentInfo(studentInfo)` - functions which accepts a student object and render it on the page
 * `showLoader(show)` - function which accepts a boolean value and depending on true/false show/hide animation on the page
 * `clearStudentsList()` - function which removes all students information from the page
 * `clearStudentInfo()` - function which remove student info from the page
