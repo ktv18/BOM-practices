@@ -7,8 +7,8 @@
     name: string,
     lastName: string,
     age: number,
-    img: string, //url of img of avatar
-    coverImg: string, //url of img of cover photo
+    img: string, 
+    coverImg: string,
     email: string,
     skills: array
    }`
