@@ -3,17 +3,19 @@
 
 ### 1 Create an array of all students 
 * each student Object must have next structure:
-  `` `{
-    name: string,
+ ```javascript {
+    name: string,\n
     lastName: string,
     age: number,
     img: string, 
     coverImg: string,
     email: string,
     skills: array
-   } `` `
+   } 
+   ```
    example: 
-   `` `{
+ 
+ ```javascript {
      name: 'Taras',
      lastName: 'Kliushta',
      age: 26,
@@ -21,7 +23,8 @@
      coverImg: 'https://static.pexels.com/photos/9135/sky-clouds-blue-horizon.jpg',
      email: 'tarasklyushta@gmail.com',
      skills: ['JS','CSS', 'HTML']
-    } `` `
+    } 
+    ```
 
 ### 2 API 
 * `renderStudents(students)` - function which accepts an array of students objects and render it on the page
